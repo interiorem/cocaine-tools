@@ -283,7 +283,7 @@ _cocaine_tool()
             ;;
         set_filter|set_cluster_filter)
             if [[ ${COMP_CWORD} == 3 ]] ; then
-                COMPREPLY=($(compgen -W "--logger_name --filter-def --ttl" -- ${cur}))
+                COMPREPLY=($(compgen -W "--logger_name --filter_def --ttl" -- ${cur}))
                 return 0
             fi
             ;;
