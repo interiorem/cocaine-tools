@@ -1,3 +1,9 @@
+cocaine-tools (0.12.14.10) unstable; urgency=low
+
+  * fix: bash completion filter_def
+
+ -- Kirill Smorodinnikov <shaitkir@gmail.com>  Thu, 13 Dec 2018 10:16:06 +0300
+
 cocaine-tools (0.12.14.9) unstable; urgency=low
 
   * fix: add dependency to six
